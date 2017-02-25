@@ -1,0 +1,5 @@
+!/bin/bash
+
+gcc sysscript.c -o sysscript
+sudo mv sysscript /bin/sysscript
+rm sysscript
